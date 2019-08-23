@@ -8,12 +8,11 @@ import {
 } from "./components/index";
 import {  MDCSnackbar
 } from "@material/snackbar/dist/mdc.snackbar.js";
-
 import "@material/fab/dist/mdc.fab.css";
 import "@material/button/dist/mdc.button.css";
 import "@material/toolbar/dist/mdc.toolbar.css";
 import "@material/snackbar/dist/mdc.snackbar.css";
-import "@material/card/dist/mdc.card.css";
+import "npm install @material/card/dist/mdc.card.css";
 import "./App.css";
 class App extends Component {
     constructor() {
@@ -275,11 +274,11 @@ class App extends Component {
                                 } {
                                     this.state.signedIn === false &&
                                         <div className = "center"/>
-                                        <button className = "mdc-button sign-in" aria-label = "Sign in"
+                                        < button className = "mdc-button sign-in" aria-label = "Sign in"
                                     onClick = {() => {
                                                 window.gapi.auth2.getAuthInstance().signIn();
                                             }
-                                        } />
+                                        }>
                                         Sign In <button/> <div/>} {this.state.signedIn && this.renderBody()
                                         } <div/> 
                                         <div ref = { el => { if (el) {
