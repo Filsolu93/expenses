@@ -3,7 +3,7 @@
 
 Check out the demo but please be considerate and don't break it for others.
 
-It was inspired by the expense-manager by mitul45 and it uses the material web components and material icons.
+It was inspired by the expense-manager by mitul and it uses the material web components and material icons.
 
 Features
 Multiple accounts
