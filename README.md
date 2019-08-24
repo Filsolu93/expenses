@@ -1,7 +1,7 @@
 # project3 expense-manager
 
 
-💰Expenses is a progressive web application on top of Google Sheets 📉 written in React ⚛️. It is only a static HTML that works great on mobile 📱 and can be deployed anywhere.
+Expenses is a progressive web application on top of Google Sheets 📉 written in React ⚛️. It is only a static HTML that works great on mobile 📱 and can be deployed anywhere.
 
 Check out the demo but please be considerate and don't break it for others.
 
