@@ -5,7 +5,7 @@ Expenses is a progressive web application on top of Google Sheets 📉 written i
 
 Check out the demo but please be considerate and don't break it for others.
 
-It was inspired by the expense-manager by mitul45 and it uses the material web components and material icons.
+It was inspired by the expense-manager and it uses the material web components and material icons.
 
 Features Multiple accounts Checking, savings, joint, etc. Categories Google Sheet as a backend Great privacy and access control. Don't share sensitive data with 3rd party. Unlimited analysis up to your sheet skill. Works great on mobile Progressive Web App. Loads quickly and works as a standalone app. Beautiful material design Better than native ;) Recurring expenses Totally doable with Zapier. Monthly summary This month. Last month. You immediately know how you doing. Get started You will need a somewhat recent version of Node and a place to deploy static HTML under a custom domain (doesn't have to be top level). To get the full offline support with service workers you'll need HTTPS – CloudFlare works fine or you can use your own certificate.
 
